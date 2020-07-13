@@ -7,19 +7,56 @@ body {
   height: 100vh;
   background: darkslategray;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.box {
-  width: 500px;
-  height: 350px;
+.boxWhite {
+  width: 550px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
   background: #fff;
   border-radius: 10px;
-  padding: 15px;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  max-width: 590px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.slider p {
+  width: 140px;
+  font-size: 24px;
+}
+
+.slider #input {
+  width: 50px;
+  cursor: initial;
+}
+
+.slider #sliderRed,
+.slider #sliderGreen,
+.slider #sliderBlue {
+  width: 270px;
+}
+
+.boxRGB {
+  width: 350px;
+  height: 200px;
+  background: darkblue;
+  color: #fff;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  align-self: center;
 }
 
 p {
-  margin: 30px;
+  margin-block-start: 20px;
+  margin-bottom: 25px;
 }

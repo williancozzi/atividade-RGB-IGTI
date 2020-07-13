@@ -9,15 +9,33 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-
 <body>
   <div class="container">
-    <div class="box">
-      <p>(R) Vermelho:</p>
-      <p>(G) Verde:</p>
-      <p>(B) Azul:</p>
-    </div>
+    <div class="boxWhite">
 
+      <div class="slider">
+        <p>(R) Vermelho: </p>
+        <input type="range" id="sliderRed" min="0" max="255" value="0">
+        <input type="text" id="input" readonly>
+      </div>
+
+      <div class="slider">
+        <p>(G) Verde:</p>
+        <input type="range" id="sliderGreen" min="0" max="255" value="0">
+        <input type="text" id="input" readonly>
+      </div>
+
+      <div class="slider">
+        <p>(B) Azul:</p>
+        <input type="range" id="sliderBlue" min="0" max="255" value="0">
+        <input type="text" id="input" readonly>
+      </div>
+
+      <div class="boxRGB">
+        RGB aqui
+      </div>
+
+    </div>
   </div>
   <script src="./js/script.js"></script>
 </body>

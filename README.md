@@ -7,7 +7,7 @@ O desafio consistia em criar um código, usando HTML, CSS e Javascript, onde um 
 ![Trabalho-Prático-01-Desafio-Rgb-Google-Chrome-2020-07-13-21-32-49-1](https://user-images.githubusercontent.com/39573063/87445945-1174f080-c5cf-11ea-936f-505786ef556a.gif)
 
 
-## Tecnologias
+## Tecnologias utilizadas
 * HTML
 * CSS
 * Javascript

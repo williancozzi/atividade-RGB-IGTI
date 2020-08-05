@@ -10,3 +10,6 @@ O desafio consistia em criar um código, usando HTML, CSS e Javascript, onde um 
 * HTML
 * CSS
 * Javascript
+
+## Teste a aplicação
+https://rgb-igti.netlify.app/
